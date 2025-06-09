@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .aspect-wrapper {
+        width: 100%;
+        padding-top: 56.25%; /* 9 / 16 = 0.5625 */
+        position: relative;
+        background-color: black;
+      }
+      .aspect-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="aspect-wrapper">
+      <div class="aspect-inner">内容</div>
+    </div>
+  </body>
+</html>
